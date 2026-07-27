@@ -1,9 +1,31 @@
 aid: guild
 name: Guild
-description: 'Guild is a company surfaced as a portfolio company of bessemer-venture-partners, cowboy-ventures,
-  d1-capital, felicis, iconiq-capital, redpoint-ventures, y-combinator and added to the API Evangelist
-  network as a stub for enrichment. Sector: cloud. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Guild (formerly Guild Education) is an education benefits and career
+  opportunity platform that partners with large employers to fund and administer
+  workforce education, upskilling, and career-mobility programs for their frontline
+  and hourly employees. Employers offer Guild as a benefit; employees access a
+  curated marketplace of degrees, certificates, bootcamps, English-language, and
+  professional-skilling programs from vetted learning providers, plus coaching and
+  career navigation to move into higher-demand roles. Guild is a B2B/B2B2C SaaS
+  platform sold to enterprise HR and talent-development teams to fill critical
+  roles, improve retention, increase internal mobility, and prove measurable ROI.
+  Founded in 2015 and headquartered in Denver, Colorado, Guild is a venture-backed
+  company. This profile was surfaced from investor portfolios and enriched by the
+  API Evangelist pipeline; Guild publishes no public developer API, SDKs, or
+  developer documentation at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/guild/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://a-us.storyblok.com/f/1022650/1500x989/38d025187e/guild-supports-your-employees.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -18,10 +40,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Cloud
+- Education
+- Workforce Development
+- Employee Benefits
+- Upskilling
+- Career Mobility
+- Learning and Development
+- Human Resources
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -30,4 +60,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.guildeducation.com/
+  url: https://guild.com/
+- type: About
+  url: https://guild.com/about
+- type: Blog
+  url: https://guild.com/insights
+- type: Careers
+  url: https://guild.com/careers
+- type: Login
+  url: https://www.guildeducation.com/
+- type: Legal
+  url: https://guild.com/legal
+- type: TermsOfService
+  url: https://guild.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://guild.com/privacy-policy
+- type: DomainSecurity
+  url: security/guild-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
