@@ -1,18 +1,14 @@
 aid: guild
 name: Guild
-description: 'Guild (formerly Guild Education) is an education benefits and career
-  opportunity platform that partners with large employers to fund and administer
-  workforce education, upskilling, and career-mobility programs for their frontline
-  and hourly employees. Employers offer Guild as a benefit; employees access a
-  curated marketplace of degrees, certificates, bootcamps, English-language, and
-  professional-skilling programs from vetted learning providers, plus coaching and
-  career navigation to move into higher-demand roles. Guild is a B2B/B2B2C SaaS
-  platform sold to enterprise HR and talent-development teams to fill critical
-  roles, improve retention, increase internal mobility, and prove measurable ROI.
-  Founded in 2015 and headquartered in Denver, Colorado, Guild is a venture-backed
-  company. This profile was surfaced from investor portfolios and enriched by the
-  API Evangelist pipeline; Guild publishes no public developer API, SDKs, or
-  developer documentation at this time.'
+description: Guild (formerly Guild Education) is an education benefits and career opportunity platform that partners
+  with large employers to fund and administer workforce education, upskilling, and career-mobility programs for
+  their frontline and hourly employees. Employers offer Guild as a benefit; employees access a curated marketplace
+  of degrees, certificates, bootcamps, English-language, and professional-skilling programs from vetted learning
+  providers, plus coaching and career navigation to move into higher-demand roles. Guild is a B2B/B2B2C SaaS platform
+  sold to enterprise HR and talent-development teams to fill critical roles, improve retention, increase internal
+  mobility, and prove measurable ROI. Founded in 2015 and headquartered in Denver, Colorado, Guild is a venture-backed
+  company. This profile was surfaced from investor portfolios and enriched by the API Evangelist pipeline; Guild
+  publishes no public developer API, SDKs, or developer documentation at this time.
 url: https://raw.githubusercontent.com/api-evangelist/guild/refs/heads/main/apis.yml
 deliveryModel:
   model: saas
@@ -99,6 +95,10 @@ common:
   url: https://guild.com/privacy-policy
 - type: DomainSecurity
   url: security/guild-domain-security.yml
+- type: Website
+  url: https://www.guild.com
+- type: Blog
+  url: https://guild.com/blog
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
